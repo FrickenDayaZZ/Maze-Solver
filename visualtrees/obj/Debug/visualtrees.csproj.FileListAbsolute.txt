@@ -1,0 +1,148 @@
+c:\users\e13-097\source\repos\visualtrees\visualtrees\obj\Debug\visualtrees.csprojResolveAssemblyReference.cache
+c:\users\e13-097\source\repos\visualtrees\visualtrees\obj\Debug\visualtrees.Form1.resources
+c:\users\e13-097\source\repos\visualtrees\visualtrees\obj\Debug\visualtrees.Properties.Resources.resources
+c:\users\e13-097\source\repos\visualtrees\visualtrees\obj\Debug\visualtrees.csproj.GenerateResource.cache
+c:\users\e13-097\source\repos\visualtrees\visualtrees\obj\Debug\visualtrees.csproj.CoreCompileInputs.cache
+c:\users\e13-097\source\repos\visualtrees\visualtrees\bin\Debug\visualtrees.exe.config
+c:\users\e13-097\source\repos\visualtrees\visualtrees\bin\Debug\visualtrees.exe
+c:\users\e13-097\source\repos\visualtrees\visualtrees\bin\Debug\visualtrees.pdb
+c:\users\e13-097\source\repos\visualtrees\visualtrees\obj\Debug\visualtrees.exe
+c:\users\e13-097\source\repos\visualtrees\visualtrees\obj\Debug\visualtrees.pdb
+C:\C sharp 2019\visualtrees\visualtrees\obj\Debug\visualtrees.csprojResolveAssemblyReference.cache
+C:\C sharp 2019\visualtrees\visualtrees\obj\Debug\visualtrees.Form1.resources
+C:\C sharp 2019\visualtrees\visualtrees\obj\Debug\visualtrees.Properties.Resources.resources
+C:\C sharp 2019\visualtrees\visualtrees\obj\Debug\visualtrees.csproj.GenerateResource.cache
+C:\C sharp 2019\visualtrees\visualtrees\obj\Debug\visualtrees.csproj.CoreCompileInputs.cache
+C:\C sharp 2019\visualtrees\visualtrees\obj\Debug\visualtrees.exe
+C:\C sharp 2019\visualtrees\visualtrees\obj\Debug\visualtrees.pdb
+C:\C sharp 2019\visualtrees\visualtrees\bin\Debug\visualtrees.exe.config
+C:\C sharp 2019\visualtrees\visualtrees\bin\Debug\visualtrees.exe
+C:\C sharp 2019\visualtrees\visualtrees\bin\Debug\visualtrees.pdb
+C:\C sharp 2020\visualtrees\visualtrees\bin\Debug\visualtrees.exe.config
+C:\C sharp 2020\visualtrees\visualtrees\bin\Debug\visualtrees.exe
+C:\C sharp 2020\visualtrees\visualtrees\bin\Debug\visualtrees.pdb
+C:\C sharp 2020\visualtrees\visualtrees\obj\Debug\visualtrees.csprojAssemblyReference.cache
+C:\C sharp 2020\visualtrees\visualtrees\obj\Debug\visualtrees.Form1.resources
+C:\C sharp 2020\visualtrees\visualtrees\obj\Debug\visualtrees.Properties.Resources.resources
+C:\C sharp 2020\visualtrees\visualtrees\obj\Debug\visualtrees.csproj.GenerateResource.cache
+C:\C sharp 2020\visualtrees\visualtrees\obj\Debug\visualtrees.exe
+C:\C sharp 2020\visualtrees\visualtrees\obj\Debug\visualtrees.pdb
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\concrt140.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\cvextern.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\msvcp140.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\opencv_videoio_ffmpeg411_64.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\vcruntime140.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\concrt140.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\cvextern.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\msvcp140.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\opencv_videoio_ffmpeg411.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\vcruntime140.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\visualtrees.exe.config
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\visualtrees.exe
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\visualtrees.pdb
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\Emgu.CV.UI.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\Emgu.CV.World.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\ZedGraph.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\Emgu.CV.UI.xml
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\Emgu.CV.World.xml
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\ZedGraph.xml
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\de\ZedGraph.resources.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\es\ZedGraph.resources.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\fr\ZedGraph.resources.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\hu\ZedGraph.resources.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\it\ZedGraph.resources.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\ja\ZedGraph.resources.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\pt\ZedGraph.resources.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\ru\ZedGraph.resources.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\sk\ZedGraph.resources.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\sv\ZedGraph.resources.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\tr\ZedGraph.resources.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.csprojAssemblyReference.cache
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.Form1.resources
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.Properties.Resources.resources
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.csproj.GenerateResource.cache
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.csproj.CopyComplete
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.exe
+C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.pdb
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\concrt140.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\cvextern.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\msvcp140.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\opencv_videoio_ffmpeg411_64.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\vcruntime140.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\concrt140.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\cvextern.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\msvcp140.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\opencv_videoio_ffmpeg411.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\vcruntime140.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\visualtrees.exe.config
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\visualtrees.exe
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\visualtrees.pdb
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\Emgu.CV.UI.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\Emgu.CV.World.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\ZedGraph.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\Emgu.CV.UI.xml
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\Emgu.CV.World.xml
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\ZedGraph.xml
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\de\ZedGraph.resources.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\es\ZedGraph.resources.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\fr\ZedGraph.resources.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\hu\ZedGraph.resources.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\it\ZedGraph.resources.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\ja\ZedGraph.resources.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\pt\ZedGraph.resources.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\ru\ZedGraph.resources.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\sk\ZedGraph.resources.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\sv\ZedGraph.resources.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\tr\ZedGraph.resources.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.csprojAssemblyReference.cache
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.Form1.resources
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.Properties.Resources.resources
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.csproj.GenerateResource.cache
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.csproj.CoreCompileInputs.cache
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.csproj.CopyComplete
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.exe
+C:\C# Programs\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.pdb
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\concrt140.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\cvextern.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\msvcp140.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\opencv_videoio_ffmpeg411_64.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x64\vcruntime140.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\concrt140.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\cvextern.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\msvcp140.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\opencv_videoio_ffmpeg411.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\x86\vcruntime140.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\visualtrees.exe.config
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\visualtrees.exe
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\visualtrees.pdb
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\Emgu.CV.UI.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\Emgu.CV.World.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\ZedGraph.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\Emgu.CV.UI.xml
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\Emgu.CV.World.xml
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\ZedGraph.xml
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\de\ZedGraph.resources.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\es\ZedGraph.resources.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\fr\ZedGraph.resources.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\hu\ZedGraph.resources.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\it\ZedGraph.resources.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\ja\ZedGraph.resources.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\pt\ZedGraph.resources.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\ru\ZedGraph.resources.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\sk\ZedGraph.resources.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\sv\ZedGraph.resources.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\tr\ZedGraph.resources.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\zh-cn\ZedGraph.resources.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\bin\Debug\zh-tw\ZedGraph.resources.dll
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.csprojAssemblyReference.cache
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.Form1.resources
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.Properties.Resources.resources
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.csproj.GenerateResource.cache
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.csproj.CoreCompileInputs.cache
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.csproj.CopyComplete
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.exe
+S:\Sixth Form\Computer science\Project Idea 2 Visual Trees CVIS\visualtrees\obj\Debug\visualtrees.pdb
