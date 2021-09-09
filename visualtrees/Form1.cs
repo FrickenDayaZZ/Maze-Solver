@@ -179,6 +179,7 @@ namespace visualtrees
                           //String messageOcr = _ocr.GetText().TrimEnd('\n', '\r'); // remove end of line from ocr-ed text   
                       }
                   }*/
+         //
                
             imgBoxTree.Image = img;
             imgBoxTree.Width = img.Size.Width;
