@@ -1,25 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Emgu.CV;
-using Emgu.Util;
-using Emgu.CV.Util;
+﻿using Emgu.CV;
 using Emgu.CV.CvEnum;
-using Emgu.CV.Structure;
 using Emgu.CV.OCR;
+using Emgu.CV.Structure;
+using System;
+using System.Drawing;
+using System.Windows.Forms;
 namespace visualtrees
 {
     public partial class Form1 : Form
     {
-        //Graphics g = label1.CreateGraphics();
+
         //Joel was here!!
-       
+        //I was here again^^^
+
+        Graph graph;
+
         int i = 0;
         string s = "";
         Pen skyBluePen = new Pen(Brushes.Black);
@@ -34,9 +29,11 @@ namespace visualtrees
             InitializeComponent();
         }
 
+
         private void Form1_Load(object sender, EventArgs e)
         {
             Draw();
+            graph = new Graph();
         }
 
         private void Draw()
@@ -55,9 +52,6 @@ namespace visualtrees
 
 
 
-
-
-
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -65,7 +59,7 @@ namespace visualtrees
 
         private void btnConvert_Click(object sender, EventArgs e)
         {
-            string filename = @"S:\maze2.jpg";
+            string filename = @"maze2.txt";
             Image<Bgr, Byte> img = new Image<Bgr, byte>(filename).Resize(625, 625, Emgu.CV.CvEnum.Inter.Linear, true);  //fileNameTextBox.Text
             UMat uimage = new UMat();
             CvInvoke.CvtColor(img, uimage, ColorConversion.Bgr2Gray);
@@ -83,23 +77,25 @@ namespace visualtrees
              Math.PI / 45.0, //Angle resolution measured in radians.
              20, //threshold
              30, //min Line width
-             10); //gap between lines
+             15); //gap between lines
 
             Tile[,] tiles = myMaze.getTiles();
             int d = 0;
             string info;
             string vertOrHori = "none"; //none, vert, hori
             foreach (LineSegment2D l in lines)
-            { 
+            {
                 // l.P1.X +l.P2.x
-              //detect if vertical or horizontal line
+                //detect if vertical or horizontal line
                 if (Math.Abs(l.P1.X - l.P2.X) < 20)
                 {
                     vertOrHori = "vert";
-                } else if (Math.Abs(l.P1.Y - l.P2.Y) < 20)
+                }
+                else if (Math.Abs(l.P1.Y - l.P2.Y) < 20)
                 {
                     vertOrHori = "hori";
-                } else
+                }
+                else
                 {
                     vertOrHori = "none";
                 }
@@ -110,7 +106,7 @@ namespace visualtrees
                 {
                     int jStart = l.P1.Y / 25;
                     int jEnd = l.P2.Y / 25;
-                    int iSame = l.P1.X /25; //x vals stay the same, find the items of the array to cycle through
+                    int iSame = l.P1.X / 25; //x vals stay the same, find the items of the array to cycle through
                     if (jStart > jEnd)
                     {
                         int temp = jStart;
@@ -134,7 +130,7 @@ namespace visualtrees
                     if (iStart > iEnd)
                     {
                         int temp = iStart;
-                       iStart = iEnd;
+                        iStart = iEnd;
                         iEnd = temp;
 
                     }
@@ -149,38 +145,37 @@ namespace visualtrees
             }
 
             Tesseract ocr = new Tesseract();
-         //   Tesseract.Character[] characters;
+            //   Tesseract.Character[] characters;
 
             //  string data = @"C:\C sharp 2020\Project Idea 2 Visual Trees CVIS\tessdata";
-         /*   string data = @"G:\tessdata\";
-               ocr.SetVariable("tessedit_char_whitelist", "ABCDEFGHIJKLMNOPQRSTUVWXYZ-1234567890");
-               ocr.Init(data, "eng", OcrEngineMode.TesseractLstmCombined); */
-             /*  characters = ocr.GetCharacters();
+            /*   string data = @"G:\tessdata\";
+                  ocr.SetVariable("tessedit_char_whitelist", "ABCDEFGHIJKLMNOPQRSTUVWXYZ-1234567890");
+                  ocr.Init(data, "eng", OcrEngineMode.TesseractLstmCombined); */
+            /*  characters = ocr.GetCharacters();
 
 
-               foreach (Tesseract.Character c in characters)
-               {
-                   CvInvoke.Rectangle(img, c.Region, new MCvScalar(255, 0, 0));
-               }*/
+              foreach (Tesseract.Character c in characters)
+              {
+                  CvInvoke.Rectangle(img, c.Region, new MCvScalar(255, 0, 0));
+              }*/
             //imgOCR = new Image<Bgr, byte>(panelStream.Image.Bitmap).Copy();
-         /*   Image<Bgr, Byte> imgOCR;
-                  using (imgOCR = img.Copy())
-                  {
-                      using (ocr)
-                      {
-                          var ocre = ocr.Recognize();
-                          var characters = ocr.GetCharacters();
+            /*   Image<Bgr, Byte> imgOCR;
+                     using (imgOCR = img.Copy())
+                     {
+                         using (ocr)
+                         {
+                             var ocre = ocr.Recognize();
+                             var characters = ocr.GetCharacters();
 
-                          foreach (Tesseract.Character c in characters)
-                          {
-                              CvInvoke.Rectangle(imgOCR, c.Region, new MCvScalar(255, 0, 0));
-                          }
+                             foreach (Tesseract.Character c in characters)
+                             {
+                                 CvInvoke.Rectangle(imgOCR, c.Region, new MCvScalar(255, 0, 0));
+                             }
 
-                          //String messageOcr = _ocr.GetText().TrimEnd('\n', '\r'); // remove end of line from ocr-ed text   
-                      }
-                  }*/
-         //
-               
+                             //String messageOcr = _ocr.GetText().TrimEnd('\n', '\r'); // remove end of line from ocr-ed text   
+                         }
+                     }*/
+
             imgBoxTree.Image = img;
             imgBoxTree.Width = img.Size.Width;
             imgBoxTree.Height = img.Size.Height;
@@ -192,107 +187,57 @@ namespace visualtrees
         {
 
         }
-    }
 
-    public class Tile
-    {
-        // Size size;
-        string colour;
-        int coordinateX;
-        int coordinateY;
-        Label label;
-        bool isWall;
-        public Tile(int x, int y)
+        private void btnCreateMaze_Click(object sender, EventArgs e)
         {
-            label = new Label();
-            label.Location = new Point(x, y);
-            label.BackColor = Color.Transparent;
+            //CreateMaze createMazecs = new CreateMaze(maze);
         }
-        public Tile(Label lbl, bool isWall)
-        {
-            label = lbl;
-            this.isWall = isWall;
-        }
-        public void NewColour(string C)
-        {
-            colour = C;
 
-        }
-        public void SetWall(bool isWallIn)
+        private void button1_Click(object sender, EventArgs e)
         {
-            isWall = isWallIn;
-            if (isWall == true)
+            myMaze.SaveMaze();
+        }
+
+        private void LoadMaze_Click(object sender, EventArgs e)
+        {
+            myMaze.LoadMaze();
+        }
+
+        private void ResetButton_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < myMaze.maze.GetLength(0); i++)
             {
-                label.BackColor = Color.Crimson;
-            }
-            else
-            {
-                label.BackColor = Color.White;
-            }
-
-        }
-        public Label GetLabel()
-        {
-            return label;
-        }
-        public void startTile(int x, int y)
-        {
-
-        }
-        public void endTile(int x, int y)
-        {
-
-        }
-    }
-    public class Maze
-    {
-        Size gridSize;
-
-        string colour;
-        Tile[,] maze;
-        public Maze(int xSize, int ySize)
-        {
-            maze = new Tile[xSize, ySize];
-
-            for (int i = 0; i < xSize; i++)
-            {
-                for (int j = 0; j < ySize; j++)
+                for (int j = 0; j < myMaze.maze.GetLength(0); j++)
                 {
-                    Label l = new Label();
-                    l.Width = 25;
-                    l.Height = 25;
-                    l.Location = new Point(i * 25, j * 25);
-                    l.BorderStyle = BorderStyle.FixedSingle;
-                    maze[i, j] = new Tile(l, false);
+                    myMaze.maze[i, j].label.BackColor = Color.Red;
                 }
             }
-
-            gridSize.Width = maze.GetLength(0);
-            gridSize.Height = maze.GetLength(1);
         }
 
-        public void SetWall(int x, int y, bool isWall)
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
         {
-            maze[x, y].SetWall(isWall);
+
         }
-        public void NewColour(string C)
+
+        public void button2_Click(object sender, EventArgs e)
         {
-            colour = C;
-
+            string textval = txtStartingSquare.Text;
+            int startNode = Convert.ToInt32(textval);
+            myMaze.maze[startNode / myMaze.maze.GetLength(0), startNode % myMaze.maze.GetLength(0)].label.BackColor = Color.Green;
         }
 
-        public Tile[,] getTiles()
+        private void button3_Click(object sender, EventArgs e)
         {
-            return maze;
+            string textval = txtEndSquare.Text;
+            int endNode = Convert.ToInt32(textval);
+            myMaze.maze[endNode / myMaze.maze.GetLength(0), endNode % myMaze.maze.GetLength(0)].label.BackColor = Color.Green;
         }
-        /* public List <Tile> getNeighbours(Tile startingTile)
-         {
 
-
-
-             return ;
-         }
-         */
+        private void Dijkstras_Click(object sender, EventArgs e)
+        {
+            graph.FindIntersections(myMaze.maze);
+            graph.GetConnections();
+        }
     }
 
 }
