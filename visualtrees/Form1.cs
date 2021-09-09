@@ -5,6 +5,8 @@ using Emgu.CV.Structure;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Linq;
+using System.Collections.Generic;
 namespace visualtrees
 {
     public partial class Form1 : Form
@@ -237,6 +239,27 @@ namespace visualtrees
         {
             graph.FindIntersections(myMaze.maze);
             graph.GetConnections();
+
+            int startSquareNum = Convert.ToInt32(txtStartingSquare.Text);
+            int endSquareNum = Convert.ToInt32(txtEndSquare.Text);
+
+            int startX = startSquareNum % myMaze.maze.GetLength(0);
+            int startY = (int)Math.Floor(startSquareNum / (float)myMaze.maze.GetLength(1));
+
+            int endX = endSquareNum % myMaze.maze.GetLength(0);
+            int endY = (int)Math.Floor(endSquareNum / (float)myMaze.maze.GetLength(1));
+
+
+            Coord start = graph.Intersections.Select(x => x)
+                .Where(x => x.X == startX && x.Y == startY).ToList()[0];
+            Coord end = graph.Intersections.Select(x => x)
+                .Where(x => x.X == endX && x.Y == endY).ToList()[0];
+
+
+            int startIndex = graph.Intersections.IndexOf(start);
+            int endIndex = graph.Intersections.IndexOf(end);
+
+            Algorithms.Dijkstras(graph, startIndex, endIndex); // Passing graph, start index and end index into Dijkstra's algorithm
         }
     }
 

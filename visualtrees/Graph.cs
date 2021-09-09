@@ -4,21 +4,24 @@ namespace visualtrees
 {
     public class Graph
     {
-        List<Coord> intersections = new List<Coord>();
-        List<Connection> connections = new List<Connection>();
+        public List<Coord> Intersections { get; set; } = new List<Coord>(); //ez 2 get
+        public List<Connection> Connections { get; set; } = new List<Connection>();
 
         public void FindIntersections(Tile[,] tiles)
         {
-
             bool left, right, up, down;
-
 
             for (int i = 0; i < tiles.GetLength(0); i++)
             {
                 for (int j = 0; j < tiles.GetLength(1); j++)
                 {
-                    if (tiles[i, j].label.BackColor != Color.White)
+                    if (tiles[i, j].label.BackColor == Color.Red)
                     {
+                        continue;
+                    }
+                    else if (tiles[i, j].label.BackColor == Color.Green)
+                    {
+                        Intersections.Add(new Coord(j, i));
                         continue;
                     }
 
@@ -29,7 +32,7 @@ namespace visualtrees
 
                     if ((left || right) && (up || down))
                     {
-                        intersections.Add(new Coord(i, j));
+                        Intersections.Add(new Coord(j, i));
                     }
                 }
             }
@@ -38,15 +41,6 @@ namespace visualtrees
         public void GetConnections()
         {
 
-        }
-
-        bool IsNull(int i, int j, int xLength, int yLength)
-        {
-            if (i < 0 || i >= xLength)
-                return true;
-            if (j < 0 || j >= yLength)
-                return true;
-            return false;
         }
     }
 
