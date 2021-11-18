@@ -24,8 +24,7 @@ namespace visualtrees
                     shortestIndex = shortest == Math.Min(shortest, distance[i]) ? shortestIndex : i;
                     shortest = Math.Min(shortest, distance[i]);
                 }
-
-                shortestDistanceIndexes.Add(shortestIndex);
+                 shortestDistanceIndexes.Add(shortestIndex);
             }
         }
     }
